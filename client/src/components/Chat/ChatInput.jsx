@@ -49,7 +49,7 @@ export default function ChatInput({
     const promptResult = await chatService.sendPrompt(
       chat._id,
       message,
-      "gpt-3.5-turbo" // hard coded for now
+      "gpt-4o-mini" // hard coded for now
     );
 
     if (promptResult.error) {
